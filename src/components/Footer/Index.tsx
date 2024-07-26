@@ -1,5 +1,4 @@
 
-import { propTypesInteractive } from '@material-tailwind/react/types/components/popover';
 import Logo from '../../assets/img/white.png';
 
 function Footer() {
@@ -66,11 +65,10 @@ function Footer() {
             <a className='cursor-pointer text-sm' key={index}>{item}<br /></a>
           ))}
         </div>
-
-
       </div>
 
       <div>
+        
 
       </div>
     </div>

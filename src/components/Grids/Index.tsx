@@ -83,22 +83,22 @@ function Body() {
           </div>
         </div>
 
-        <div className="lg:flex md:block sm:block gap-2 my-4">
+        <div className="lg:flex block gap-2 my-4">
           <div className='relative lg:w-[70%] md:w-full sm:w-full relative'>
             <img src={Bg1} alt="" className='rounded-2xl' />
-            <div className='absolute top-16 left-14'>
+            <div className='absolute top-16 left-14 md:left-4 md:top-6 sm:left-4 sm:top-4'>
               <span className='font-[600]'>Website & Commerce </span><br />
-              <span className='font-black text-[54px] font-[none]'>Tools for all your <br />business firsts.</span><br />
+              <span className='font-black lg:text-[3rem] md:text-[2rem] font-[none] sm:hidden ssm:hidden'>Tools for all your <br className="hidden lg:block"/>business firsts.</span><br />
               <span className='font-semibold'>Website and Store solutions for any small business.</span><br />
               <span >
-                <button className='my-4 bg-black text-white px-12 py-4 rounded-lg'>Get Started</button>
-                <a href=""><span className='font-bold mx-6 opacity-90'>Learn More</span></a>
+                <button className='my-4 bg-black text-white lg:px-12 lg:py-4 md:px-6 md:py-2 lg:rounded-lg sm:rounded-md sm:px-2 sm:py-1'>Get Started</button>
+                <a href=""><span className='font-bold mx-6 opacity-90 cursor-pointer'>Learn More</span></a>
               </span><br />
-              <span className='text-sm'>No Credit card required**</span>
+              <span className='text-sm sm:hidden'>No Credit card required**</span>
             </div>
 
           </div>
-          <div className='relative bg-[#D8EFEF] rounded-lg lg:w-[30%] md:w-[100%] sm:w-[100%]'>
+          <div className='relative bg-[#D8EFEF] rounded-lg lg:w-[30%] lg:h-auto md:w-full sm:w-full md:h-[25rem] my-4'>
             <div className='absolute top-16 left-14'>
               <span className='font-[600]'>Domain & Commerce </span><br />
               <span className='font-bold text-[32px]'>Grab a .com for just <br />$0.01*/1st yr</span><br />

@@ -20,7 +20,10 @@ function Header(props: HeaderProps) {
         </div>
         <div className='font-semibold text-gray-600 absolute right-20 flex'>
           <div className='leading-8 px-2 py-1 rounded-lg hover:bg-[#ddd] cursor-pointer'><span className='lg:block md:hidden sm:hidden'>Help Center</span> <span className='lg:hidden md:block sm:block'><i className='bx bx-question-mark' ></i></span></div>
-          <div className='leading-8 px-2 py-1 rounded-lg hover:bg-[#ddd] cursor-pointer relative pr-8'><span className='lg:block md:hidden sm:hidden'>Sign In <i className='absolute text-3xl top-0.5 bx bx-chevron-down'></i> </span> <span className='lg:hidden md:block sm:block'><i className='bx bx-user'></i></span></div>
+          <div className='leading-8 px-2 py-1 rounded-lg hover:bg-[#ddd] cursor-pointer relative pr-8'>
+            <span className='lg:block md:hidden sm:hidden'>Sign In <i className='absolute text-3xl top-0.5 bx bx-chevron-down'></i> </span> 
+            <span className='lg:hidden md:block sm:block'><i className='bx bx-user'></i></span>
+          </div>
           <div className='leading-8 px-2 py-1 rounded-lg hover:bg-[#ddd] cursor-pointer'> <i className='bx bx-cart' ></i> </div>
         </div>
       </div>
