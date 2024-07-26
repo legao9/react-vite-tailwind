@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif; 
+  font-size: 1rem;
+  font-weight: var(--ux-sm2he3, 400);
+  line-height: var(--ux-1w31hux, 1.5);
+  background-color: var(--ux-cao06b, #fff);
+  color: var(--ux-1leynsm, #000);
+}
